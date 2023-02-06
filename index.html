@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/css/final.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Altera</title>
+  </head>
+  <body>
+    <header class="w-full mx-auto mt-4">
+      <nav
+        class="flex justify-around items-center bg-white fixed z-[999] h-20 w-full top-0"
+      >
+        <div class="mx-4">
+          <img src="img/logo-alta.png" alt="logo" />
+        </div>
+
+        <ul class="hidden md:flex justify-center items-center">
+          <li class="py-4">
+            <a
+              href="#"
+              class="inline-block px-6 text-[13px] text-[#19345e] font-medium transition duration-300 hover:text-[#f47522]"
+              >HOME</a
+            >
+            <a
+              href="#"
+              class="inline-block px-6 text-[13px] text-[#19345e] font-medium transition duration-300 hover:text-[#f47522]"
+              >ABOUT</a
+            >
+            <a
+              href="#"
+              class="inline-block px-6 text-[13px] text-[#19345e] font-medium transition duration-300 hover:text-[#f47522]"
+              >EXPERIENCE</a
+            >
+            <a
+              href="#"
+              class="inline-block px-6 text-[13px] text-[#19345e] font-medium transition duration-300 hover:text-[#f47522]"
+              >CONTACT</a
+            >
+          </li>
+        </ul>
+
+        <div class="md:hidden flex justify-center items-center">
+          <button class="menu-toggle">
+            <svg
+              class="w-6 h-6 text-navbar"
+              x-show="!showMenu"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- hero -->
+    <section
+      class="mt-[5rem] w-full lg:h-[30rem] sm:h-[45rem] flex justify-center items-center lg:flex-row flex-col"
+      style="
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-image: url(img/bg-img.png);
+      "
+    >
+      <div class="w-[355px]">
+        <img
+          src="img/1.jpg"
+          alt="picture"
+          class="p-[30px] box-border rounded-full"
+        />
+      </div>
+
+      <div class="ml-3">
+        <p class="text-[25px] text-[#19345e] font-medium">Hi, My name is</p>
+        <h1 class="text-[85px] text-[#19345e] font-bold leading-none">
+          Anne Sullivan
+        </h1>
+        <h2 class="text-[35px] text-[#19345e] font-medium">
+          I build things for the web
+        </h2>
+        <div
+          class="bg-[#f47522] w-[150px] h-[45px] rounded-3xl text-white text-base text-center leading-[45px] mt-10"
+        >
+          Get in touch
+        </div>
+      </div>
+    </section>
+    <!-- hero end -->
+
+    <!-- about -->
+    <section class="">
+      <div class="w-full h-[132px] bg-[#F4F7FC] leading-[132px]">
+        <h1 class="text-[40px] text-[#19345E] ml-[125px] font-bold">
+          ABOUT ME.
+        </h1>
+      </div>
+
+      <div
+        class="lg:w-[80%] lg:my-[50px] lg:mx-auto lg:flex lg:justify-between lg:h-auto"
+      >
+        <img
+          src="img/1.jpg"
+          alt="picture"
+          class="w-[250px] mx-auto my-4 rounded-[20px] lg:hidden"
+        />
+        <div
+          class="sm:w-[20rem] sm:mx-auto lg:mx-0 lg:w-1/2 text-[#19345E] lg:leading-[20px]"
+        >
+          <p class="text-base font-medium">
+            Versatile Front-end Developer with 3+ years of experience designing,
+            developing, adn managing complex e-commerce sites and internal
+            frameworks. Specializes in AngularJS and responsive design.
+          </p>
+          <br />
+          <h2 class="text-[24px] font-bold">Education</h2>
+          <br />
+          <ul class="list-disc">
+            <li class="text-base font-medium">
+              <p>2014</p>
+              <p>DIPLOMA</p>
+              <p>Computer Engineering - University of Chicago</p>
+            </li>
+            <br />
+            <li class="text-base font-medium">
+              <p>2018</p>
+              <p>BACHELOR DEGREE</p>
+              <p>BS Computer Engineering - University of Chicago</p>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <img
+            src="img/img-dot.png"
+            alt="dot"
+            class="hidden lg:block relative left-[-26px] bottom-[-192px]"
+          />
+          <img
+            src="img/1.jpg"
+            alt="picture"
+            class="hidden lg:block lg:w-[250px] lg:rounded-[20px] lg:relative lg:left-[11px] lg:top-[-80px]"
+          />
+        </div>
+      </div>
+
+      <div class="w-[80%] m-auto mt-5">
+        <h2 class="text-[18px] text-[#19345E] font-semibold">
+          Here's few technologies I've been working with recently :
+        </h2>
+        <table class="my-[30px]">
+          <tr>
+            <td
+              class="text-[14px] text-[#19345E] font-medium w-[150px] p-[5px] border border-[#19345E]"
+            >
+              HTML & CSS
+            </td>
+            <td
+              class="text-[14px] text-[#19345E] font-medium w-[150px] p-[5px] border border-[#19345E]"
+            >
+              Serverless
+            </td>
+            <td
+              class="text-[14px] text-[#19345E] font-medium w-[150px] p-[5px] border border-[#19345E]"
+            >
+              Scrum
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="text-[14px] text-[#19345E] font-medium w-[150px] p-[5px] border border-[#19345E]"
+            >
+              Programming
+            </td>
+            <td
+              class="text-[14px] text-[#19345E] font-medium w-[150px] p-[5px] border border-[#19345E]"
+            >
+              Restful API
+            </td>
+            <td
+              class="text-[14px] text-[#19345E] font-medium w-[150px] p-[5px] border border-[#19345E]"
+            >
+              Test-Driven Dev
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="text-[14px] text-[#19345E] font-medium w-[150px] p-[5px] border border-[#19345E]"
+            >
+              Database
+            </td>
+            <td
+              class="text-[14px] text-[#19345E] font-medium w-[150px] p-[5px] border border-[#19345E]"
+            >
+              Javascript
+            </td>
+            <td
+              class="text-[14px] text-[#19345E] font-medium w-[150px] p-[5px] border border-[#19345E]"
+            >
+              Software Testing
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="text-[14px] text-[#19345E] font-medium w-[150px] p-[5px] border border-[#19345E]"
+            >
+              Git & Github
+            </td>
+            <td
+              class="text-[14px] text-[#19345E] font-medium w-[150px] p-[5px] border border-[#19345E]"
+            >
+              Single Page App
+            </td>
+            <td
+              class="text-[14px] text-[#19345E] font-medium w-[150px] p-[5px] border border-[#19345E]"
+            >
+              UX/UI Designer
+            </td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <!-- about end -->
+
+    <!-- experience -->
+    <section>
+      <div class="w-full h-[132px] bg-[#F4F7FC] leading-[132px]">
+        <h1 class="text-[40px] text-[#19345E] ml-[125px] font-bold">
+          EXPERIENCE
+        </h1>
+      </div>
+
+      <div class="mb-[150px]">
+        <div
+          class="w-[60%] min-h-[500px] my-[50px] mx-auto border-l-2 border-black border-opacity-20"
+        >
+          <img
+            src="img/dot.png"
+            alt="dot"
+            class="relative left-[-11px] bottom-[-87px]"
+          />
+          <div
+            class="w-[90%] m-auto mb-[60px] p-[30px] box-border border shadow-xl rounded-xl leading-[20px]"
+          >
+            <h1 class="text-[17px] text-[#19345E] font-medium">
+              FULL-STACK ENGINEER - ALTERAA ACADEMY
+            </h1>
+            <h2 class="text-[15px] text-[#19345E] text-opacity-50 font-medium">
+              May, 2019 - Present
+            </h2>
+            <hr class="my-2 border-[#19345E]" />
+            <ul class="list-[circle]">
+              <li>
+                <p class="text-[14px] text-[#19345E] font-medium">
+                  Write modern, performant, maintainable code for a diverse
+                  array of client and internal projects
+                </p>
+              </li>
+              <li>
+                <p class="text-[14px] text-[#19345E] font-medium">
+                  Work with a variety of different languages, platforms,
+                  frameworks, and content management systems such as Javascript,
+                  Typescript, Gatsby, React, Craft, Wordpress, Prismic, and
+                  Netlify
+                </p>
+              </li>
+            </ul>
+          </div>
+
+          <img
+            src="img/dot.png"
+            alt="dot"
+            class="relative left-[-11px] bottom-[-87px]"
+          />
+          <div
+            class="w-[90%] m-auto mb-[60px] p-[30px] box-border border shadow-xl rounded-xl leading-[20px]"
+          >
+            <h1 class="text-[17px] text-[#19345E] font-medium">
+              FRONTEND ENGINEER - APPLE
+            </h1>
+            <h2 class="text-[15px] text-[#19345E] text-opacity-50 font-medium">
+              May, 2018 - May, 2019
+            </h2>
+            <hr class="my-2 border-[#19345E]" />
+            <ul class="list-[circle]">
+              <li>
+                <p class="text-[14px] text-[#19345E] font-medium">
+                  Develop and maintained code for in house and client websites
+                  primarily using HTML, CSS, SASS, Javascript.
+                </p>
+              </li>
+            </ul>
+          </div>
+
+          <img
+            src="img/dot.png"
+            alt="dot"
+            class="relative left-[-11px] bottom-[-87px]"
+          />
+          <div
+            class="w-[90%] m-auto mb-[60px] p-[30px] box-border border shadow-xl rounded-xl leading-[20px]"
+          >
+            <h1 class="text-[17px] text-[#19345E] font-medium">
+              UI/UX DESIGN - SCOUT
+            </h1>
+            <h2 class="text-[15px] text-[#19345E] text-opacity-50 font-medium">
+              January, 2018 - April, 2018
+            </h2>
+            <hr class="my-2 border-[#19345E]" />
+            <ul class="list-[circle]">
+              <li>
+                <p class="text-[14px] text-[#19345E] font-medium">
+                  Developed and shiped highly interactive web applications for
+                  Apple Music using Ember.js
+                </p>
+              </li>
+              <li>
+                <p class="text-[14px] text-[#19345E] font-medium">
+                  Architected and implemented the front-end of Apple Music's
+                  embedabble web player widget, whic let users log in and listen
+                  full songs in the browse
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- experience end -->
+
+    <!-- contact -->
+    <section
+      class="w-[80%] m-auto mb-[50px] flex justify-around items-center shadow-2xl sm:flex-wrap sm:w-full"
+    >
+      <div>
+        <img src="img/2.jpg" alt="picture" class="h-[600px]" />
+      </div>
+
+      <div class="w-1/2 flex flex-col p-[40px] box-border h-auto">
+        <h1 class="text-center text-black text-[24px] font-bold">Contact us</h1>
+        <br />
+        <label for="name" class="text-black text-base font-medium"
+          >Full Name<span class="text-red-600">*</span></label
+        >
+        <input
+          type="text"
+          name="name"
+          class="w-full h-[35px] border-2 border-t-[3px] border-t-slate-600 border-l-[3px] border-l-slate-600 border-slate-500 rounded-[10px] opacity-30"
+        />
+        <br />
+        <label for="email" class="text-black text-base font-medium"
+          >Email Address<span class="text-red-600">*</span></label
+        >
+        <input
+          type="email"
+          name="email"
+          class="w-full h-[35px] border-2 border-t-[3px] border-t-slate-600 border-l-[3px] border-l-slate-600 border-slate-500 rounded-[10px] opacity-30"
+        />
+        <br />
+        <label for="phone" class="text-black text-base font-medium"
+          >Phone Number<span class="text-red-600">*</span></label
+        >
+        <input
+          type="tel"
+          name="phone"
+          class="w-full h-[35px] border-2 border-t-[3px] border-t-slate-600 border-l-[3px] border-l-slate-600 border-slate-500 rounded-[10px] opacity-30"
+        />
+        <br />
+        <label for="role" class="text-black text-base font-medium">Role</label>
+        <input
+          type="text"
+          name="role"
+          class="w-full h-[35px] border-2 border-t-[3px] border-t-slate-600 border-l-[3px] border-l-slate-600 border-slate-500 rounded-[10px] opacity-30"
+        />
+        <br />
+        <label for="message" class="text-black text-base font-medium"
+          >Message</label
+        >
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          class="w-full border border-black"
+        ></textarea>
+        <br />
+        <button
+          class="bg-[#f47522] w-[150px] h-[45px] rounded-3xl text-white text-base text-center leading-[45px]"
+          type="submit"
+        >
+          Submit
+        </button>
+      </div>
+    </section>
+    <!-- contact end -->
+
+    <footer
+      class="w-full h-[140px] bg-[#19345E] flex justify-around items-center"
+    >
+      <div class="w-[120px]">
+        <img src="img/altav2.png" alt="logo" />
+      </div>
+      <div>
+        <p
+          class="text-white text-base text-center font-medium inline-block pb-1"
+        >
+          Social Media
+        </p>
+        <div>
+          <img src="img/ic_fb.png" alt="" class="inline-block" />
+          <img src="img/ic-twitter.png" alt="" class="inline-block" />
+          <img src="img/ic-instagram.png" alt="" class="inline-block" />
+          <img src="img/ic-linkedin.png" alt="" class="inline-block" />
+        </div>
+      </div>
+      <div class="text-white text-base font-medium">
+        <p>Copyright Alterra</p>
+      </div>
+    </footer>
+  </body>
+</html>
