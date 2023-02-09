@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="dist/css/final.css" />
+    <link rel="stylesheet" href="dist/output.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -93,7 +93,7 @@
           I build things for the web
         </h2>
         <div
-          class="bg-[#f47522] w-[150px] h-[45px] rounded-3xl text-white text-base text-center leading-[45px] mt-10"
+          class="bg-[#f47522] w-[150px] h-[45px] rounded-3xl text-white text-base text-center leading-[45px] my-4"
         >
           Get in touch
         </div>
@@ -104,7 +104,9 @@
     <!-- about -->
     <section class="">
       <div class="w-full h-[132px] bg-[#F4F7FC] leading-[132px]">
-        <h1 class="text-[40px] text-[#19345E] ml-[125px] font-bold">
+        <h1
+          class="text-[40px] text-[#19345E] font-bold text-center lg:text-left lg:ml-[125px]"
+        >
           ABOUT ME.
         </h1>
       </div>
@@ -118,7 +120,7 @@
           class="w-[250px] mx-auto my-4 rounded-[20px] lg:hidden"
         />
         <div
-          class="sm:w-[20rem] sm:mx-auto lg:mx-0 lg:w-1/2 text-[#19345E] lg:leading-[20px]"
+          class="w-[20rem] mx-auto lg:mx-0 lg:w-1/2 text-[#19345E] lg:leading-[20px]"
         >
           <p class="text-base font-medium">
             Versatile Front-end Developer with 3+ years of experience designing,
@@ -238,7 +240,9 @@
     <!-- experience -->
     <section>
       <div class="w-full h-[132px] bg-[#F4F7FC] leading-[132px]">
-        <h1 class="text-[40px] text-[#19345E] ml-[125px] font-bold">
+        <h1
+          class="text-[40px] text-[#19345E] font-bold text-center lg:text-left lg:ml-[125px]"
+        >
           EXPERIENCE
         </h1>
       </div>
@@ -343,13 +347,19 @@
 
     <!-- contact -->
     <section
-      class="w-[80%] m-auto mb-[50px] flex justify-around items-center shadow-2xl sm:flex-wrap sm:w-full"
+      class="w-[80%] m-auto mb-[50px] flex justify-around items-center shadow-2xl flex-col lg:flex-row"
     >
       <div>
-        <img src="img/2.jpg" alt="picture" class="h-[600px]" />
+        <img
+          src="img/2.jpg"
+          alt="picture"
+          class="w-[300px] rounded-sm lg:h-[600px]"
+        />
       </div>
 
-      <div class="w-1/2 flex flex-col p-[40px] box-border h-auto">
+      <div
+        class="w-full flex flex-col lg:w-1/2 lg:flex-row p-[40px] box-border h-auto"
+      >
         <h1 class="text-center text-black text-[24px] font-bold">Contact us</h1>
         <br />
         <label for="name" class="text-black text-base font-medium"
