@@ -591,14 +591,6 @@ video {
   margin-left: 0.75rem;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
-.ml-\[125px\] {
-  margin-left: 125px;
-}
-
 .mt-5 {
   margin-top: 1.25rem;
 }
@@ -635,18 +627,6 @@ video {
   display: none;
 }
 
-.aspect-square {
-  aspect-ratio: 1 / 1;
-}
-
-.aspect-auto {
-  aspect-ratio: auto;
-}
-
-.aspect-\[4\/3\] {
-  aspect-ratio: 4/3;
-}
-
 .h-20 {
   height: 5rem;
 }
@@ -661,10 +641,6 @@ video {
 
 .h-\[132px\] {
   height: 132px;
-}
-
-.h-\[600px\] {
-  height: 600px;
 }
 
 .h-auto {
@@ -703,6 +679,10 @@ video {
   width: 250px;
 }
 
+.w-\[20rem\] {
+  width: 20rem;
+}
+
 .w-\[80\%\] {
   width: 80%;
 }
@@ -715,20 +695,12 @@ video {
   width: 90%;
 }
 
-.w-1\/2 {
-  width: 50%;
+.w-\[300px\] {
+  width: 300px;
 }
 
 .w-\[120px\] {
   width: 120px;
-}
-
-.w-\[20rem\] {
-  width: 20rem;
-}
-
-.w-\[300px\] {
-  width: 300px;
 }
 
 .list-disc {
@@ -741,10 +713,6 @@ video {
 
 .flex-col {
   flex-direction: column;
-}
-
-.flex-wrap {
-  flex-wrap: wrap;
 }
 
 .items-center {
@@ -775,12 +743,12 @@ video {
   border-radius: 0.75rem;
 }
 
-.rounded-\[10px\] {
-  border-radius: 10px;
-}
-
 .rounded-sm {
   border-radius: 0.125rem;
+}
+
+.rounded-\[10px\] {
+  border-radius: 10px;
 }
 
 .border {
@@ -801,6 +769,10 @@ video {
 
 .border-l-\[3px\] {
   border-left-width: 3px;
+}
+
+.border-l-4 {
+  border-left-width: 4px;
 }
 
 .border-\[\#19345E\] {
@@ -1021,58 +993,9 @@ body {
   color: rgb(244 117 34 / var(--tw-text-opacity));
 }
 
-@media (max-width: 425px) {
-  .max-\[425px\]\:flex {
-    display: flex;
-  }
-
-  .max-\[425px\]\:w-1\/2 {
-    width: 50%;
-  }
-
-  .max-\[425px\]\:flex-col {
-    flex-direction: column;
-  }
-}
-
-@media (min-width: 425px) {
-  .min-\[425px\]\:flex {
-    display: flex;
-  }
-
-  .min-\[425px\]\:w-1\/2 {
-    width: 50%;
-  }
-
-  .min-\[425px\]\:flex-row {
-    flex-direction: row;
-  }
-
-  .min-\[425px\]\:flex-col {
-    flex-direction: column;
-  }
-}
-
 @media (min-width: 640px) {
-  .sm\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .sm\:h-\[45rem\] {
     height: 45rem;
-  }
-
-  .sm\:w-\[20rem\] {
-    width: 20rem;
-  }
-
-  .sm\:w-full {
-    width: 100%;
-  }
-
-  .sm\:flex-wrap {
-    flex-wrap: wrap;
   }
 }
 
@@ -1156,6 +1079,14 @@ body {
 
   .lg\:w-full {
     width: 100%;
+  }
+
+  .lg\:w-\[350px\] {
+    width: 350px;
+  }
+
+  .lg\:w-\[400px\] {
+    width: 400px;
   }
 
   .lg\:flex-row {
